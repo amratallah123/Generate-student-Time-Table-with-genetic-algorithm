@@ -1,5 +1,5 @@
 class Room:
-    def intit(self,number,seatingCapacity):
+    def _init_(self,number,seatingCapacity):
         self._number=number
         self._seattingCapacity=seatingCapacity
     def get_number(self):return self._number
