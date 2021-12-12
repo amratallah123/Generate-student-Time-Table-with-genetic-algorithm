@@ -1,5 +1,5 @@
 class MeetingTime:
-    def init(self,id,time):
+    def __init__(self,id,time):
         self._id=id
         self._time=time
     def get_id(self):return self._id
